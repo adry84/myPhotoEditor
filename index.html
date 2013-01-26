@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+        <meta charset="utf-8">
+        <title>MyPhotoEditor</title>
+        <link rel="stylesheet" href="css/base.css" type="text/css" media="screen">
+		<script type="text/javascript" src="jscolor/jscolor.js"></script>
+	
+    </head>
+
+    <body>
+
+        <div class="container" id="containerDiv">
+            <h1></h1>
+
+            <section class="main-content" style="position:relative;">
+                <p>
+                    <input type="file" id="take-picture" accept="image/*">
+                </p>
+
+                <h2>MyPhotoEditor</h2>
+				<p style="position:absolute; top:0; left:0;">
+					<div id="dropdownrubber">
+					<ul id="item1">
+						 <li class="top" id="rubberlitop" style="padding:1px 14px 4px 10px;"><img width="29px" id="rubberselimg" align="center" src="img/eraseicon.png"/></li>
+						<li class="item"  id="rubberselli0"><a href="#" align="center" ><img  id="rubberselimg0" align="center" src="img/circle0_sel.png" /></a></li>
+						<li class="item"  id="rubberselli1"><a class="circle" href="#" align="center" ><img  id="rubberselimg1" align="center" src="img/circle1.png"/></a></li>
+						<li class="item"  id="rubberselli2"><a href="#" align="center" ><img  id="rubberselimg2" align="center" src="img/circle2.png"/></a></li>
+					</ul>
+					</div>
+					<div id="dropdowntaille">
+						<ul id="item1">
+							 <li class="top" id="taillelitop" style="padding:1px 16px 4px 12px;" ><img id="tailleselimg" align="center" width="22px" src="img/pencilicon.png"/></li>
+							<li class="item"  id="tailleselli0"><a href="#" align="center" ><img  id="tailleselimg0" align="center" src="img/circle0_sel.png"/></a></li>
+							<li class="item"  id="tailleselli1"><a href="#" align="center" ><img  id="tailleselimg1" align="center" src="img/circle1.png"/></a></li>
+							<li class="item"  id="tailleselli2"><a href="#" align="center" ><img  id="tailleselimg2" align="center" src="img/circle2.png"/></a></li>
+						</ul>
+					</div>
+					<input id="colorpicker" class="color" value="000000" >
+				</p>
+                <p >
+					<canvas  id="myCanvas" width="578" height="400"></canvas>
+
+                    <!--<img src="about:blank" alt="" id="show-picture">-->
+                </p>
+
+                <p id="error"></p>
+
+            </section>
+	
+	<div style="clear:left;" />
+            <p class="footer" >
+				<div id="locatemeDiv"></div>
+				
+				<img id="contactBtn" width='40px'  src='img/contact_icon.png'/>
+				
+			</p>
+        </div>
+
+
+        <script src="js/base.js"></script>
+
+
+    </body>
+</html>

@@ -1,0 +1,38 @@
+{
+  "version": "0.1",
+  "name": "PhotoEdit",
+  "description": "Application to edit pictures and use with your phone",
+  "launch_path": "index.html",
+  "icons": {
+    "16": "/img/icons/ico-16.png",
+    "48": "/img/icons/ico-48.png",
+    "128": "/img/icons/ico-128.png"
+  },
+  "developer": {
+    "name": "Audrey Martel",
+    "url": "http://martel.audrey.free.fr"
+  },
+  "installs_allowed_from": ["*"],
+
+  "locales": {
+    "fr": {
+      "description": "Application pour éditer vos images et les utiliser dans votre téléphone",
+      "developer": {
+        "url": "http://martel.audrey.free.fr"
+      }
+    },
+    "en": {
+      "description": "Application to edit pictures and use with your phone",
+      "developer": {
+        "url": "http://martel.audrey.free.fr"
+      }
+    }
+  },
+  "default_locale": "en" ,
+  "permissions": {
+    "geolocation":{},
+    "storage":{},
+    "network-http":{ },
+    "camera":{}
+  }
+}
