@@ -5,7 +5,7 @@
 	var EVT_START = 'mousedown';
 	var EVT_END= 'mouseup';
 	var EVT_MOVE= 'mousemove';
-	if ((screen.width < 480) || (screen.height < 480)) 
+	if ((screen.width <= 480) || (screen.height <= 480)) 
 	{
 		var EVT_START = 'touchstart';
 		var EVT_END= 'touchend';
